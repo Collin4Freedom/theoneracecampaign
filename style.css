@@ -52,4 +52,28 @@ p {
 .button.secondary:hover {
   background-color: #f9f9f9;
 }
+.hero-banner {
+  background: linear-gradient(to right, #f8e8a0, #fff8dc);
+  padding: 120px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #b8860b;
+  margin-bottom: 0.3em;
+}
+
+.hero-subtitle {
+  font-size: 1.4em;
+  color: #444;
+  margin-bottom: 1.5em;
+}
 
