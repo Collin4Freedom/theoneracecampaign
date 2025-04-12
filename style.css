@@ -1,16 +1,16 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #fffaf0, #fceabb);
   color: #333;
-  line-height: 1.6;
-  text-align: center;
 }
 
 .hero-banner {
   background: linear-gradient(to right, #f8e8a0, #fff8dc);
   padding: 120px 20px;
+  text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -20,28 +20,28 @@ body {
 }
 
 .hero-title {
-  font-size: 3.2em;
+  font-size: 3em;
   font-weight: bold;
   color: #b8860b;
   margin-bottom: 0.3em;
 }
 
 .hero-subtitle {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: #444;
   margin-bottom: 1.5em;
 }
 
 .button {
   display: inline-block;
-  padding: 14px 28px;
+  padding: 12px 24px;
   margin: 10px;
   background-color: gold;
-  color: black;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  transition: background-color 0.3s;
 }
 
 .button:hover {
@@ -56,24 +56,5 @@ body {
 
 .button.secondary:hover {
   background-color: #f9f9f9;
-}
-
-.mission-section {
-  background: white;
-  padding: 60px 20px;
-  border-top: 4px solid gold;
-}
-
-.mission-section h2 {
-  font-size: 2em;
-  color: #222;
-  margin-bottom: 20px;
-}
-
-.mission-section p {
-  font-size: 1.3em;
-  max-width: 700px;
-  margin: 0 auto;
-  color: #555;
 }
 
