@@ -1,42 +1,47 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #fffaf0, #fceabb);
   color: #333;
+  line-height: 1.6;
+  text-align: center;
 }
 
-.container {
-  padding: 80px 20px;
+.hero-banner {
+  background: linear-gradient(to right, #f8e8a0, #fff8dc);
+  padding: 120px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-h1 {
-  font-size: 2.8em;
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.2em;
+  font-weight: bold;
+  color: #b8860b;
   margin-bottom: 0.3em;
 }
 
-h2 {
-  font-weight: normal;
+.hero-subtitle {
   font-size: 1.5em;
-  margin-top: 0;
-}
-
-p {
-  font-size: 1.2em;
-  margin: 20px 0;
+  color: #444;
+  margin-bottom: 1.5em;
 }
 
 .button {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 14px 28px;
   margin: 10px;
   background-color: gold;
-  color: #000;
+  color: black;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 8px;
-  transition: background-color 0.3s;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
@@ -52,28 +57,23 @@ p {
 .button.secondary:hover {
   background-color: #f9f9f9;
 }
-.hero-banner {
-  background: linear-gradient(to right, #f8e8a0, #fff8dc);
-  padding: 120px 20px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+.mission-section {
+  background: white;
+  padding: 60px 20px;
+  border-top: 4px solid gold;
 }
 
-.hero-content {
-  max-width: 800px;
+.mission-section h2 {
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.mission-section p {
+  font-size: 1.3em;
+  max-width: 700px;
   margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 3em;
-  font-weight: bold;
-  color: #b8860b;
-  margin-bottom: 0.3em;
-}
-
-.hero-subtitle {
-  font-size: 1.4em;
-  color: #444;
-  margin-bottom: 1.5em;
+  color: #555;
 }
 
