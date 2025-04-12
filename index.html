@@ -2,19 +2,152 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The One Race Campaign</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fffaf0, #fceabb);
+      color: #222;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffcc00;
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .nav-logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .nav-links a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #222;
+    }
+    .nav-links a:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+    .hero-banner {
+      background: linear-gradient(to bottom right, #fff8dc, #fceabb);
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .hero-title {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #b8860b;
+    }
+    .hero-subtitle {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      color: #444;
+    }
+    .button {
+      display: inline-block;
+      margin: 1rem;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #000;
+      background-color: gold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .button:hover {
+      background-color: #ffd700;
+    }
+    .button.secondary {
+      background-color: white;
+      border: 2px solid gold;
+    }
+    .info-section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .info-section.alt {
+      background-color: #fffef5;
+    }
+    .info-section h2 {
+      font-size: 2rem;
+      color: #b8860b;
+    }
+    .info-section p {
+      max-width: 700px;
+      margin: 1rem auto;
+      font-size: 1.1rem;
+    }
+    .footer {
+      background-color: #f8f8f8;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    .quote {
+      font-style: italic;
+      margin-top: 1rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  <div class="hero-banner">
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-logo">🌍 The One Race Campaign</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#mission">Mission</a>
+      <a href="#donate">Donate</a>
+      <a href="#join">Join Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-banner">
     <div class="hero-content">
       <h1 class="hero-title">The Return of the King of Kings</h1>
       <p class="hero-subtitle">Bearer of the Ring of Light • Dawn of The Golden Age</p>
       <a class="button" href="https://givebutter.com/RTurB8" target="_blank">Donate Now</a>
-      <a class="button secondary" href="#">Join the Movement</a>
+      <a class="button secondary" href="#join">Join the Movement</a>
     </div>
-  </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="info-section" id="mission">
+    <h2>Our Mission</h2>
+    <p>To unite all races, nations, and beings under the banner of love, truth, and destiny. We are building a movement of peace, powered by people and guided by the divine light of purpose. The Golden Age begins when we say YES — together.</p>
+  </section>
+
+  <!-- Donation Prompt -->
+  <section class="info-section alt" id="donate">
+    <h2>Why Donate?</h2>
+    <p>Your support fuels a global transformation. With your contribution, we can build schools of peace, communities of compassion, and a network of hope that spans the Earth. Every donation is a step toward heaven on Earth.</p>
+    <a class="button" href="https://givebutter.com/RTurB8" target="_blank">Give Now</a>
+  </section>
+
+  <!-- Call to Join -->
+  <section class="info-section" id="join">
+    <h2>Join The One Race Movement</h2>
+    <p>We are assembling a global team of Ambassadors, Guardians, and Creators. Sign up. Show up. Shine your light. This is your invitation to build the world you dream of.</p>
+    <a class="button secondary" href="#">Become a Founding Member</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 The One Race Campaign. All rights reserved.</p>
+    <p class="quote">“Do not allow fear to prevent you from being the hero of your own story. You are GREAT. You are destined for more.”<br>— Collin David McLaughlin, King of Kings</p>
+  </footer>
 </body>
 </html>
 
